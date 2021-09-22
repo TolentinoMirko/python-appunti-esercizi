@@ -1,0 +1,17 @@
+appunti 22/09/21
+
+slicing = meccanismo attraverso il quale recuperiamo una parte della lista in python
+2 list comprention = meccanismo attraverso il quale costruiamo una lista
+
+ES: capoluoghiRegioni = ['LAquila','Potenza','Catanzaro','Napoli','Bologna','Trieste','Roma','Genova','Milano','Ancona','Campobasso','Torino','Bari','Cagliari','Palermo','Firenze','Trento','Perugia','Aosta','Venezia']
+pari = [i for nome in capoluoghiRegioni if capoluoghiRegioni.index(nome)%2==0]
+
+```py
+pari1 = []
+for nomi in capoluoghiRegioni:
+  if capoluoghiRegioni.index(nome)%2==0:    #indentazione molto importante
+    pari1.append(nomi)
+  
+print(pari)
+print(pari1)
+```
