@@ -15,3 +15,10 @@ for nomi in capoluoghiRegioni:
 print(pari)
 print(pari1)
 ```
+
+Funzione è un costrutto sintattico nel linguaggio di programmazione che permette di raggruppare una serie di istruzioni che di solito vengono ripetute
+piu volte durante il programma.
+Una funzione puo avere 0 piu argomenti/parametri
+valori di ingresso(su cui la funzione opera) 
+deve avere anche dei valori di uscita
+
