@@ -32,10 +32,3 @@ funzione lambda è una funzione che ci consente di scrivere una parte di codice 
 map è una funzione che applica ad ogni elemento di una lista(secondo parametro) una funzione 
 
 
-lista = input('Inserisci una lista di elementi separati da una virgola').split(',')
-
-while len(lista) != 10:
-  lista = input('Reinserisci una lista di elementi separati da una virgola').split(',')
-
-f = lambda li: [el if float(el) >= 0 else '0' for el in li]
-print(f(lista))
