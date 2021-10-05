@@ -16,9 +16,26 @@ print(pari)
 print(pari1)
 ```
 
+FUNZIONI
 Funzione è un costrutto sintattico nel linguaggio di programmazione che permette di raggruppare una serie di istruzioni che di solito vengono ripetute
 piu volte durante il programma.
 Una funzione puo avere 0 piu argomenti/parametri
 valori di ingresso(su cui la funzione opera) 
 deve avere anche dei valori di uscita
 
+FUNZIONI
+parametri attuali viene usato all'interno del programma , paramentri formali è utilizzato nella funzione del programma
+
+la funzione deve aver "vita propria"(senza input,senza print...etc)
+
+funzione lambda è una funzione che ci consente di scrivere una parte di codice in una solo riga (es:v(nome labda)=lambda x,y(parametri):x+y(esecuzione)
+map è una funzione che applica ad ogni elemento di una lista(secondo parametro) una funzione 
+
+
+lista = input('Inserisci una lista di elementi separati da una virgola').split(',')
+
+while len(lista) != 10:
+  lista = input('Reinserisci una lista di elementi separati da una virgola').split(',')
+
+f = lambda li: [el if float(el) >= 0 else '0' for el in li]
+print(f(lista))
